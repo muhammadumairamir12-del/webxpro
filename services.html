@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Digital Services | SkyEagle Studio</title>
+    <!-- SEO Optimization -->
+    <meta name="description" content="Explore our specialized digital services: custom software development, Next.js web applications, Flutter mobile apps, SaaS subscriptions, and generative AI integrations.">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Poppins:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Loading Screen Transition -->
+    <div class="loading-screen" id="loaderScreen" aria-hidden="true">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Custom Neon Cursor Follower (Desktop Only) -->
+    <div class="cursor" aria-hidden="true"></div>
+    <div class="cursor-follower" aria-hidden="true"></div>
+
+    <!-- Cosmic Background Glowing Elements -->
+    <div class="bg-container" aria-hidden="true">
+        <div class="grid-overlay"></div>
+        <div class="orb orb1"></div>
+        <div class="orb orb2"></div>
+        <div class="orb orb3"></div>
+    </div>
+
+    <!-- ===== ANIMATED CONTACT SIDEBAR ===== -->
+    <div class="contact-sidebar">
+        <a href="https://wa.me/923188791637?text=Hi!%20I%20want%20to%20discuss%20a%20project" class="contact-widget" target="_blank" id="sidebarWhatsapp">
+            <div class="pulse-dot"></div>
+            <i class="fab fa-whatsapp"></i>
+            <div class="contact-info-text">
+                <span class="label">WhatsApp</span>
+                <span class="number">0318 8791637</span>
+            </div>
+        </a>
+        <a href="tel:+923184195665" class="contact-widget" id="sidebarCall">
+            <div class="pulse-dot"></div>
+            <i class="fas fa-phone-alt"></i>
+            <div class="contact-info-text">
+                <span class="label">Call Us</span>
+                <span class="number">0318 4195665</span>
+            </div>
+        </a>
+    </div>
+
+    <!-- Navigation Header -->
+    <nav>
+        <div class="logo-container">
+            <a href="/" style="text-decoration: none;">
+                <div class="logo">SkyEagle Studio</div>
+            </a>
+            <div class="logo-subtitle">SOFTWARE STUDIO</div>
+        </div>
+        <div class="hamburger-menu" id="navToggle" aria-label="Toggle Navigation">
+            <i class="fas fa-bars"></i>
+        </div>
+        <ul class="nav-links">
+            <li><a href="/">Home</a></li>
+            <li><a href="/services" class="active">Services</a></li>
+            <li><a href="/projects">Work</a></li>
+            <li><a href="/software">Software</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/contact">Contact</a></li>
+            <li class="nav-cta-item"><a href="/contact" class="btn btn-primary nav-cta-btn">Start a Project</a></li>
+        </ul>
+    </nav>
+
+    <main style="padding-top: 50px;">
+        <!-- Header -->
+        <section class="experience" style="background:transparent; padding:60px 20px 20px;">
+            <span class="portfolio-badge" style="position:static; display:inline-block; margin-bottom:15px;">Our Expertise</span>
+            <h1 class="experience-title" style="font-size: 2.5rem; margin-bottom:20px; line-height:1.2;">Capabilities & Digital Services</h1>
+            <p style="text-align: center; color: var(--gray-light); max-width:700px; margin: 0 auto 40px; font-size:1.1rem; line-height:1.6;">We build high-performance products tailored to active corporate workflows, from front-end websites to database backend hosting.</p>
+        </section>
+
+        <!-- Services Grid -->
+        <section class="services" style="padding: 20px 20px 80px;">
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-code"></i></div>
+                    <h3 class="service-title">Web Development</h3>
+                    <p class="service-desc">Corporate websites, high-converting landing pages, custom portals, and responsive e-commerce storefronts built for performance.</p>
+                    <a href="/services/web-development" class="service-link">View Details &rarr;</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-desktop"></i></div>
+                    <h3 class="service-title">Software Development</h3>
+                    <p class="service-desc">Custom business software, clinic systems, CRM/ERP platforms, and offline-capable desktop systems tailored to workflows.</p>
+                    <a href="/services/software-development" class="service-link">View Details &rarr;</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-cloud-arrow-up"></i></div>
+                    <h3 class="service-title">SaaS Development</h3>
+                    <p class="service-desc">Multi-user cloud applications complete with authentication, billing systems, dashboards, and scalable database layers.</p>
+                    <a href="/services/saas-development" class="service-link">View Details &rarr;</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-mobile-screen"></i></div>
+                    <h3 class="service-title">Mobile App Development</h3>
+                    <p class="service-desc">Fluid native Android, iOS, and Flutter cross-platform applications integrated with real-time Firebase backends.</p>
+                    <a href="/services/mobile-app-development" class="service-link">View Details &rarr;</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-robot"></i></div>
+                    <h3 class="service-title">AI Product Development</h3>
+                    <p class="service-desc">Integrating Gemini/OpenAI models into websites and SaaS apps to automate routines, content generation, and chat.</p>
+                    <a href="/services/ai-development" class="service-link">View Details &rarr;</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-magnifying-glass-chart"></i></div>
+                    <h3 class="service-title">SEO & Growth</h3>
+                    <p class="service-desc">Technical search indexing audits, structured schema markups, speed tuning, and Core Web Vitals optimizations.</p>
+                    <a href="/services/seo" class="service-link">View Details &rarr;</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Dynamic Process block -->
+        <section class="experience bg-alternate" style="border-top:1px solid #111; border-bottom:1px solid #111; padding: 100px 20px;">
+            <h2 class="experience-title">Our Standard Development Flow</h2>
+            <div class="process-grid">
+                <div class="process-card">
+                    <div class="proc-num">01</div>
+                    <h4>Discovery</h4>
+                    <p>Map targeted operations bottlenecks and layout scoping guidelines.</p>
+                </div>
+                <div class="process-card">
+                    <div class="proc-num">02</div>
+                    <h4>Planning</h4>
+                    <p>Map database tables, structural integrations, routes, and timelines.</p>
+                </div>
+                <div class="process-card">
+                    <div class="proc-num">03</div>
+                    <h4>Design</h4>
+                    <p>Construct visual theme maps and responsive user interfaces templates.</p>
+                </div>
+                <div class="process-card">
+                    <div class="proc-num">04</div>
+                    <h4>Development</h4>
+                    <p>Code core elements, link background microservices, and configure databases.</p>
+                </div>
+                <div class="process-card">
+                    <div class="proc-num">05</div>
+                    <h4>Testing</h4>
+                    <p>Audit forms checks, page speed indexes, responsive screens, and error logs.</p>
+                </div>
+                <div class="process-card">
+                    <div class="proc-num">06</div>
+                    <h4>Launch</h4>
+                    <p>Deploy product to cloud hosting services and monitor telemetry.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-team">SkyEagle Studio</div>
+        <p style="color: #aaa; margin-bottom: 20px; font-size: 1.1rem;">Digital products, software and AI solutions built for real businesses.</p>
+        <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; margin-bottom: 20px;">
+            <a href="/" style="color: #888; text-decoration: none; font-size: 0.9rem;">Home</a>
+            <a href="/services" style="color: #888; text-decoration: none; font-size: 0.9rem;">Services</a>
+            <a href="/projects" style="color: #888; text-decoration: none; font-size: 0.9rem;">Work</a>
+            <a href="/software" style="color: #888; text-decoration: none; font-size: 0.9rem;">Software</a>
+            <a href="/about" style="color: #888; text-decoration: none; font-size: 0.9rem;">About</a>
+            <a href="/contact" style="color: #888; text-decoration: none; font-size: 0.9rem;">Contact</a>
+            <a href="/privacy-policy" style="color: #888; text-decoration: none; font-size: 0.9rem;">Privacy</a>
+            <a href="/terms" style="color: #888; text-decoration: none; font-size: 0.9rem;">Terms</a>
+        </div>
+        <div class="social-links">
+            <a href="https://github.com/muhammadumairamir12-del" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+        </div>
+        <p style="color: #666; font-size: 0.9rem; margin-top: 20px;">© 2026 SkyEagle Studio. All rights reserved. | Deployed Globally</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
